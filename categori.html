@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильтр товаров</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/filter.js"></script>
+</head>
+<body>
+    <header>
+        <section class="top-header">
+            <div class="container">
+            <ul class="header-list list-reset">
+                <li class="top-header-list-item"><a href="#" class="lower-border-header">Авторизация</a></li>
+                <li class="position-right"><a href="#" class="lower-border-header">Воронеж ул. Пушкинская д. 45</a></li>
+                <li class="top-header-list-item"><a href="payment.html">Оплата и доставка</a></li>
+                <li class="top-header-list-item"><a href="#">О компании</a></li>
+                <li class="top-header-list-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        </section>
+            <section>
+                <div class="container info-header">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <ul class="header-list list-reset">
+                    <li class="top-header-list-item"><a href="tel:+79036510005" class="link-header-phone">+7 903-651-00-05</a></li>
+                    <li class="top-header-list-item time-job-header">Работаем ежедневно с 08.00 до 21.00</li>
+                    <li class="top-header-list-item favorite-header"></li>
+                    <li class="top-header-list-item add-to-cart-header"></li>
+                </ul>
+                </div>
+            </section>
+            <section class="menu-header">
+                <nav class="container">
+                    <ul class="menu list-reset">
+                        <li class="menu-item item-rose"><a href="#">Розы</a>
+                            <ul class="submenu list-reset">
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item item-flower"><a href="#">Букеты</a>
+                            <ul class="submenu list-reset">
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item item-box"><a href="#">Коробки</a>
+                            <ul class="submenu list-reset">
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item item-giff"><a href="#">Подарки</a>
+                            <ul class="submenu list-reset">
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item last-item-position item-service"><a href="services.html">Услуги</a>
+                            <ul class="submenu list-reset">
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                                <li><a href="#">Красные</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <form class="search">
+                                <input type="search" placeholder="Что искать?">
+                                <button type="submit" aria-label="Поиск" class="search-button"></button>
+                            </form>
+                        </li>
+                    </ul>
+                    </nav>
+            </section>
+    </header>
+    <main>
+        <div class="container">
+            <div class="categori-position-links">
+                <a href="index.html" class="link-to-main">Главная</a>|<a href="#" class="link-to-catalog">Каталог</a>|<a href="#" class="link-to-categori">Категория 1</a>
+            </div>
+            <section class="categori">
+               <h2 class="main-caption">Категория товара</h2>
+               <div class="position-categori">
+               <div class="position-filter">
+                   <form action="">
+                   <div class="filter">
+                    <button type="button" onclick="myFunction()" class="dropbtn">Категория</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <input type="radio" class="radio-input">
+                        <label for="" class="position-label">категория1</label>
+                        <input type="radio" class="radio-input">
+                        <label for="" class="position-label">категория2</label>
+                        <input type="radio" class="radio-input">
+                        <label for="" class="position-label">категория3</label>
+                        <input type="radio" class="radio-input">
+                        <label for="" class="position-label">категория4</label>
+                    </div>
+                   </div>
+                   <div class="filter-price">
+                    <label for="amount">Цена</label>
+                    <div id="slider-range"></div>
+                    <div class="position-value">
+                    <input type="text" class="amount-style" id="amount">
+                    <input type="text" class="amount-style" id="amount2">
+                    </div>
+                    </div>
+                    <div class="filter-subcategori-1 filter">
+                        <button type="button" onclick="myFunction2()" class="dropbtn">Фильтр 1</button>
+                        <div id="myDropdown2" class="dropdown-content">
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 1</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 2</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 3</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 4</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 5</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 6</label>
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <button type="button"  onclick="myFunction3()" class="dropbtn">Фильтр 2</button>
+                        <div id="myDropdown3" class="dropdown-content">
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 1</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 2</label>
+                            <input type="checkbox" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 3</label>
+                        </div>
+                    </div>
+                    <div class="filter">
+                        <button type="button" onclick="myFunction4()" class="dropbtn">Фильтр 3</button>
+                        <div id="myDropdown4" class="dropdown-content">
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 1</label>
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 2</label>
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 3</label>
+                        </div>
+                    </div>
+                    <div class="filter last-filter">
+                        <button type="button" onclick="myFunction5()" class="dropbtn">Фильтр 4</button>
+                        <div id="myDropdown5" class="dropdown-content">
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 1</label>
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 2</label>
+                            <input type="radio" class="radio-input">
+                            <label for="" class="position-label">Подфильтр 3</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="form-button-serch">Подобрать</button>
+                    <button type="reset" class="form-button-reset">Сбросить</button>
+                </form>
+               </div>
+               <div class="products-categori">
+                <ul class="card-list list-reset">
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                    <li class="card-list-item">
+                        <div class="flag">
+                            <p class="flag-hit">HIT</p>
+                            <p class="flag-new">NEW</p>
+                        </div>
+                        <article>
+                            <h3>Название товара в две строки</h3>
+                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s>2800</s>
+                            <span>2800</span>
+                        </article>
+                        <div class="card-list-hover">
+                            <button type="button" class="faworite-button"></button>
+                            <button type="button" class="add-button"></button>
+                            <button type="button" class="fast-buy-btn">Быстрый заказ</button>
+                        </div>
+                    </li>
+                </ul>
+               </div>
+            </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <section class="top-link-footer">
+            <div class="container">
+                <ul class="footer-menu-list list-reset">
+                    <li class="footer-menu-list-item"><a href="index.html">Главная</a></li>
+                    <li class="footer-menu-list-item"><a href="#">Розы</a></li>
+                    <li class="footer-menu-list-item"><a href="#">Коробки</a></li>
+                    <li class="footer-menu-list-item"><a href="#">Подарки</a></li>
+                    <li class="footer-menu-list-item"><a href="services.html" class="last-item-footer-left">Услуги</a></li>
+                    <li class="footer-menu-list-item"><a href="payment.html">Оплата и доставка</a></li>
+                    <li class="footer-menu-list-item"><a href="#">О компании</a></li>
+                    <li class="footer-menu-list-item"><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyrait">
+            <div class="container">
+                <ul class="list-copyrait list-reset">
+                    <li class="list-copyrait-item footer-copyrate">© FLOWER LAB 2020</li>
+                    <li class="list-copyrait-item footer-inst-logo"><img src="img/inst-footer.svg" alt="inst-logo"></li>
+                    <li class="list-copyrait-item">Разработка сайта - Stebnev-Studio</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
