@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "Lovelace";
+    font-weight: 400;
+    font-style: normal;
+    src: 
+        url("../fonts/Lovelace-Text-Medium-trial.woff2") format("woff2"),
+        url("../fonts/Lovelace-Text-Medium-trial.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Lovelace";
+    font-weight: 500;
+    font-style: normal;
+    src: 
+        url("../fonts/Lovelace-Text-Bold-trial.woff2") format("woff2"),
+        url("../fonts/Lovelace-Text-Bold-trial.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Lovelace";
+    font-weight: 200;
+    font-style: normal;
+    src: 
+        url("../fonts/Lovelace-Text-Light-trial.woff2") format("woff2"),
+        url("../fonts/Lovelace-Text-Light-trial.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "Lovelace";
+    font-weight: 700;
+    font-style: normal;
+    src: 
+        url("../fonts/Lovelace-Text-Extrabold-trial.woff2") format("woff2"),
+        url("../fonts/Lovelace-Text-Extrabold-trial.woff") format("woff");
+    font-display: swap;
+}
