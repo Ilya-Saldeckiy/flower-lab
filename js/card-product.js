@@ -1,20 +1,20 @@
 var galleryThumbs = new Swiper('.gallery-thumbs', {
-    spaceBetween: 10,
-    slidesPerView: 4,
-    watchSlidesVisibility: true,
-    watchSlidesProgress: true,
-    pagination: {
-        el: '.swiper-pagination',
-    },
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
-
-  });
-  var galleryTop = new Swiper('.gallery-top', {
-    spaceBetween: 20,
-    thumbs: {
-      swiper: galleryThumbs
-    }
-  });
+  spaceBetween: 20,
+  slidesPerView: 3,
+  freeMode: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
+});
+var galleryTop = new Swiper('.gallery-top', {
+  spaceBetween: 200,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  thumbs: {
+    swiper: galleryThumbs
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  }
+});

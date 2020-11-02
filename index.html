@@ -9,8 +9,13 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preload" href="fonts/Lovelace-Text-Light-trial.woff2" as="font">
+	<link rel="preload" href="fonts/Lovelace-Text-Medium-trial.woff2" as="font">
+    <link rel="preload" href="fonts/Lovelace-Text-Extrabold-trial.woff2" as="font">
+    <link rel="preload" href="fonts/Lovelace-Text-Bold-trial.woff2" as="font">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <header>
@@ -20,7 +25,7 @@
                 <li class="top-header-list-item"><a href="#" class="lower-border-header">Авторизация</a></li>
                 <li class="position-right"><a href="#" class="lower-border-header">Воронеж ул. Пушкинская д. 45</a></li>
                 <li class="top-header-list-item"><a href="payment.html">Оплата и доставка</a></li>
-                <li class="top-header-list-item"><a href="#">О компании</a></li>
+                <li class="top-header-list-item"><a href="abbout-us.html">О компании</a></li>
                 <li class="top-header-list-item"><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
@@ -97,19 +102,19 @@
                   <div class="slider-nav">
                     <div class="swiper-wrapper">
                       <div class="size-slider-pos swiper-slide position-text-slide">
-                        <h1 class="caption-slider">Коллекция авторских коробок</h1>
-                        <p>Бесплатная доставка по городу от 3000 рублей</p>
-                        <a href="#" class="buy-slider">Купить</a>
+                        <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
+                        <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
+                        <button type="button" class="buy-slider">Купить</button>
                       </div>
                       <div class="size-slider-pos swiper-slide position-text-slide">
-                        <h1 class="caption-slider">Коллекция авторских коробок</h1>
-                        <p>Бесплатная доставка по городу от 3000 рублей</p>
-                        <a href="#" class="buy-slider">Купить</a>
+                        <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
+                        <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
+                        <button type="button" class="buy-slider">Купить</button>
                       </div>
                       <div class="size-slider-pos swiper-slide position-text-slide">
-                        <h1 class="caption-slider">Коллекция авторских коробок</h1>
-                        <p>Бесплатная доставка по городу от 3000 рублей</p>
-                        <a href="#" class="buy-slider">Купить</a>
+                        <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
+                        <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
+                        <button type="button" class="buy-slider">Купить</button>
                       </div>
                       </div>
                     </div>
@@ -134,16 +139,16 @@
             <div class="container">
         <h2 class="main-caption">Хиты продаж</h2>
         <ul class="card-list list-reset">
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-1">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -151,16 +156,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-2">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption ">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -168,16 +173,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-3">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -185,16 +190,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-4">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -202,16 +207,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-5">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -219,16 +224,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-6">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -236,16 +241,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-7">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -253,16 +258,16 @@
                     <button type="button" class="fast-buy-btn">Быстрый заказ</button>
                 </div>
             </li>
-            <li class="card-list-item">
+            <li class="card-list-item card-hits-8">
                 <div class="flag">
                     <p class="flag-hit">HIT</p>
                     <p class="flag-new">NEW</p>
                 </div>
                 <article>
-                    <h3>Название товара в две строки</h3>
-                    <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                    <s>2800</s>
-                    <span>2800</span>
+                    <h3 class="card-caption">Название товара в две строки</h3>
+                    <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                    <s class="card-price-decider">2 800 ₽</s>
+                    <span class="card-price-relevant">2 800 ₽</span>
                 </article>
                 <div class="card-list-hover">
                     <button type="button" class="faworite-button"></button>
@@ -280,100 +285,100 @@
             <div class="container">
                 <h2 class="main-caption">Новое поступление</h2>
                 <ul class="card-list list-reset">
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-1">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-2">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-3">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-4">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-5">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-6">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-7">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
-                    <li class="card-list-item">
-                        <div class="flag">
+                    <li class="card-list-item card-relevant-8">
+                        <div class="flag-new-product">
                             <p class="flag-hit">HIT</p>
                             <p class="flag-new">NEW</p>
                         </div>
                         <article>
-                            <h3>Название товара в две строки</h3>
-                            <p>Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
-                            <s>2800</s>
-                            <span>2800</span>
+                            <h3 class="card-caption">Название товара в две строки</h3>
+                            <p class="card-text">Рортензия,роза пионовидная кустовая, пион, озатамнус ...</p>
+                            <s class="card-price-decider">2 800 ₽</s>
+                            <span class="card-price-relevant">2 800 ₽</span>
                         </article>
                     </li>
                 </ul>
@@ -397,15 +402,15 @@
                     <li class="why-AreWe-list-item">
                         <span class="why-AreWe-box box-birthday"></span>
                         <span class="why-AreWe-text">
-                            <h3>Безупречный сервис</h3>
-                            <p>Отправляем фото перед доставкой цветов</p>
+                            <h3>Открытка в подарок</h3>
+                            <p>В подарок к заказу карточка с Вашим текстом</p>
                         </span>
                     </li>
                     <li class="why-AreWe-list-item">
                         <span class="why-AreWe-box box-truck"></span>
                         <span class="why-AreWe-text">
-                            <h3>Безупречный сервис</h3>
-                            <p>Отправляем фото перед доставкой цветов</p>
+                            <h3>Бесплатная доставка</h3>
+                            <p>Любой заказ от 3000 рублей доставляем бесплатно</p>
                         </span>
                     </li>
                 </ul>
@@ -416,28 +421,28 @@
             <div class="container">
                 <h2 class="main-caption">Мы в Instagram</h2>
                 <ul class="main-instagram-list list-reset">
-                    <li class="main-instagram-list-item">
+                    <li class="main-instagram-list-item instagram-card-1">
                         <div class="card-list-hover">
                             <span class="main-instagram-list-item-img"></span>
                             <span class="main-instagram-list-item-like"></span>
                             <span class="main-instagram-list-item-comment"></span>
                         </div>
                     </li>
-                    <li class="main-instagram-list-item">
+                    <li class="main-instagram-list-item instagram-card-2">
                         <div class="card-list-hover">
                             <span class="main-instagram-list-item-img"></span>
                             <span class="main-instagram-list-item-like"></span>
                             <span class="main-instagram-list-item-comment"></span>
                         </div>
                     </li>
-                    <li class="main-instagram-list-item">
+                    <li class="main-instagram-list-item instagram-card-3">
                         <div class="card-list-hover">
                             <span class="main-instagram-list-item-img"></span>
                             <span class="main-instagram-list-item-like"></span>
                             <span class="main-instagram-list-item-comment"></span>
                         </div>
                     </li>
-                    <li class="main-instagram-list-item">
+                    <li class="main-instagram-list-item instagram-card-4">
                         <div class="card-list-hover">
                             <span class="main-instagram-list-item-img"></span>
                             <span class="main-instagram-list-item-like"></span>
@@ -452,13 +457,13 @@
         <section class="top-link-footer">
             <div class="container">
                 <ul class="footer-menu-list list-reset">
-                    <li class="footer-menu-list-item"><a href="catalog.html">Главная</a></li>
+                    <li class="footer-menu-list-item"><a href="index.html">Главная</a></li>
                     <li class="footer-menu-list-item"><a href="#">Розы</a></li>
                     <li class="footer-menu-list-item"><a href="#">Коробки</a></li>
                     <li class="footer-menu-list-item"><a href="#">Подарки</a></li>
                     <li class="footer-menu-list-item"><a href="services.html" class="last-item-footer-left">Услуги</a></li>
                     <li class="footer-menu-list-item"><a href="payment.html">Оплата и доставка</a></li>
-                    <li class="footer-menu-list-item"><a href="#">О компании</a></li>
+                    <li class="footer-menu-list-item"><a href="abbout-us.html">О компании</a></li>
                     <li class="footer-menu-list-item"><a href="contacts.html">Контакты</a></li>
                 </ul>
             </div>

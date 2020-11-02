@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Услуги</title>
+    <title>Оформление свадьбы</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="preload" href="fonts/Lovelace-Text-Light-trial.woff2" as="font">
 	<link rel="preload" href="fonts/Lovelace-Text-Medium-trial.woff2" as="font">
     <link rel="preload" href="fonts/Lovelace-Text-Extrabold-trial.woff2" as="font">
@@ -13,7 +17,7 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-    <header>
+    <header class="headder">
         <section class="top-header">
             <div class="container">
             <ul class="header-list list-reset">
@@ -84,87 +88,31 @@
                     </nav>
             </section>
     </header>
-    <main class="service-bacground-leawes">
+    <main class="wedding-bacground-leawes">
         <div class="container">
             <div class="catalog-position-links">
-                <a href="index.html" class="link-to-main">Главная</a>|<a href="#" class="link-to-service">Услуги</a>
+                <a href="index.html" class="link-to-main">Главная</a>|<a href="services.html" class="link-to-service">Услуги</a> | <a href="#" class="link-to-wedding">Оформление свадьбы</a>
             </div>
-            <section class="service">
-               <h2 class="main-caption">Услуги</h2>
-               <ul class="service-list list-reset">
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card1">
+            <section class="wedding">
+                <h2 class="main-caption">Оформление свадьбы</h2>
+                <div class="position-text">
+                    <div class="wedding-text">
+                        <p>H7 Headline Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                        <p>При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                        <button type="button" class="wedding-btn">Консультация</button>
                     </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a class="link-service-card" href="#">Оформление шарами</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card2">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a class="link-service-card" href="#">Оформление цветами</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card3">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a class="link-service-card" href="#">Озеленение</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card4">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a class="link-service-card" href="#">Интерьерные композиции</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card5">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a href="#">Школа флористики</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card6">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a href="#">Мастер классы</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item">
-                    <div class="img-position-service service-card7">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a href="#">Корпоративное сотрудничество</a>
-                    </h3>
-                    </div>
-                   </li>
-                   <li class="service-list-item service-card8">
-                    <div class="img-position-service">
-                    </div>
-                    <div class="position-service-caption-hover">
-                    <h3 class="service-list-item-caption">
-                        <a href="#">Аренда декораций</a>
-                    </h3>
-                    </div>
-                   </li>
-               </ul>
+                    <div class="slider">
+                        <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/wedding-slider.jpg" alt="slide1"></div>
+                            <div class="swiper-slide"><img src="img/wedding-slider.jpg" alt="slide2"></div>
+                            <div class="swiper-slide"><img src="img/wedding-slider.jpg" alt="slide3"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        </div>
+                        <script src="js/slider-wedding.js"></script>
+                </div>
+                </div>
             </section>
         </div>
     </main>

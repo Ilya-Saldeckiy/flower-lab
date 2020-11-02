@@ -47,7 +47,9 @@
 }
 
 .buy-slider{
-    padding: 10px 40px;
+    width: 170px;
+    height: 45px;
+    color: #ffffff;
     background-color: #191919;
     border: none;
     border-radius: 20px 0;
