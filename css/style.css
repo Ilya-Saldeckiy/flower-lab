@@ -45,7 +45,7 @@ button{
 }
 
 .position-right{
-    margin-right: 365px;
+    margin-right: 215px;
 }
 
 .list-reset{
@@ -82,7 +82,8 @@ button{
 }
 
 .link-header-phone{
-    margin-right: 310px;
+    font-size: 16px;
+    margin-right: 145px;
     color: #191919;
 }
 
@@ -98,9 +99,16 @@ button{
 }
 
 .time-job-header{
-    width: 150px;
+    font-size: 16px;
+    width: 162px;
+    margin-right: 135px !important;
     margin-top: -15px;
+    margin-left: -15px;
     color: #191919;
+}
+
+.top-header-list-item-time{
+    margin-right: 150px;
 }
 
 .favorite-header{
@@ -115,7 +123,6 @@ button{
     width: 25px;
     height: 25px;
     background: url('../img/add-header.svg') no-repeat;
-    margin-left: 40px;
 }
 
 .header-list{
@@ -125,7 +132,7 @@ button{
 }
 
 .top-header-list-item:not(:last-child){
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .top-header{
@@ -184,7 +191,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .last-item-position{
-    margin-right: 280px;
+    margin-right: 295px;
 }
 
 .item-rose{
@@ -318,6 +325,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .slider-text{
+    margin-bottom: 50px;
     font-size: 20px;
 
 }
@@ -331,7 +339,7 @@ ul.menu > li:hover > ul.submenu {
     margin-right: 30px;
     margin-bottom: 55px;
     position: relative;
-    z-index: 90;
+    z-index: 5;
 }
 
 .flag{
@@ -956,6 +964,10 @@ ul.menu > li:hover > ul.submenu {
     margin-top: 0;
 }
 
+.position-payment-img-320{
+    display: none;
+}
+
 .text-pay{
     margin-bottom: 40px;
 }
@@ -1235,7 +1247,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .reviews-slide{
-    width: 540px !important;
+    /* width: 540px !important; */
     border: none;
     padding-left: 200px;
     padding-right: 10px;
@@ -1804,4 +1816,42 @@ ul.menu > li:hover > ul.submenu {
 .set-size{
     margin-bottom: -25px;
     margin-top: -40px;
+}
+
+.filter-320{
+    display: none;
+}
+
+.b-container{
+    display: none;
+}
+
+.b-popup{
+    width: 320px;
+    min-height: 555px;
+    background-color: rgba(0,0,0,0.8);
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999999999;
+    top: 55px;
+    left: 0;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:100px;
+    height: 40px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.burger{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 0;
+    border: none;
+    background: url('../img/burger.svg') no-repeat;
+    background-color: #191919;
 }

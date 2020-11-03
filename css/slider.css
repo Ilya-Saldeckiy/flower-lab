@@ -61,5 +61,7 @@
 }
 
 .caption-slider{
-    margin-top: 300px;
+    width: 600px;
+    line-height: 60px;
+    margin-top: 150px;
 }

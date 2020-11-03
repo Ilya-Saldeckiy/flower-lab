@@ -14,6 +14,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/fonts.css">
     <script src="js/filter.js"></script>
 </head>
@@ -30,7 +31,7 @@
             </ul>
         </div>
         </section>
-            <section>
+            <section class="header-info">
                 <div class="container info-header">
                 <img src="img/logo.png" alt="logo" class="logo">
                 <ul class="header-list list-reset">
@@ -91,15 +92,16 @@
     </header>
     <main>
         <div class="container">
-            <div class="categori-position-links">
+            <div class="catalog-position-links">
                 <a href="index.html" class="link-to-main">Главная</a>|<a href="catalog.html" class="link-to-catalog">Каталог</a>|<a href="categori.html" class="link-to-categori">Категория 1</a>
             </div>
             <section class="categori">
+                <button type="button" onclick="myFunction0()" class="dropbtn filter-320">Фильтр</button>
                <h2 class="main-caption">Категория товара</h2>
                <div class="position-categori">
                <div class="position-filter">
                    <form action="">
-                   <div class="filter">
+                   <div id="myDropdown0" class="filter">
                     <button type="button" onclick="myFunction()" class="dropbtn">Категория</button>
                     <div id="myDropdown" class="dropdown-content">
                         <input type="radio" class="radio-input">
@@ -112,7 +114,7 @@
                         <label for="" class="position-label">категория4</label>
                     </div>
                    </div>
-                   <div class="filter-price">
+                   <div class="filter-price filter">
                     <label for="amount">Цена</label>
                     <div id="slider-range"></div>
                     <div class="position-value">
@@ -170,8 +172,8 @@
                             <label for="" class="position-label">Подфильтр 3</label>
                         </div>
                     </div>
-                    <button type="submit" class="form-button-serch">Подобрать</button>
-                    <button type="reset" class="form-button-reset">Сбросить</button>
+                    <button type="submit" class="form-button-serch btn-filter">Подобрать</button>
+                    <button type="reset" class="form-button-reset btn-filter">Сбросить</button>
                 </form>
                </div>
                <div class="products-categori">

@@ -12,6 +12,12 @@ pagination: {
 el: '.swiper-pagination',
 clickable: true,
 },
+breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 800
+    },
+},
 autoplay: {
     delay: 3000,
     disableOnInteraction: false,
@@ -29,6 +35,12 @@ loop: true,
 pagination: {
 el: '.swiper-pagination',
 clickable: true,
+},
+breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 800
+    },
 },
 autoplay: {
     delay: 3000,

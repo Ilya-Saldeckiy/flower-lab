@@ -1,0 +1,506 @@
+@media(max-width:320px){
+
+    /* Шапка */
+
+    .container{
+        padding: 0;
+        margin: 0 auto;
+        width: 290px;
+    }
+
+    .main-caption,.main-caption-section{
+        font-size: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .top-header{
+        display: none;
+    }
+
+    .logo{
+        width: 95px;
+        height: 35px;
+        margin-right: 30px;
+    }
+
+    .time-job-header,.link-header-phone,.menu-header,.catalog-position-links{
+        display: none;
+    }
+
+    .contacts-bacground-leawes{
+        background: none;
+    }
+
+    .top-header-list-item:not(:last-child){
+        margin-right: 30px;
+    }
+
+    .header-info{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        box-shadow: 0px 0px 10px rgba(25, 25, 29, 0.2);
+        z-index: 90;
+        position: relative;
+    }
+
+
+    /* контакты */
+
+    .contact-position{
+        display: block;
+    }
+    
+    .contact-adress{
+        display: block;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .contact-callback{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 290px;
+    }
+
+    .caption-form{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .callback-form{
+        width: 260px;
+    }
+
+    .btn-form{
+        margin-left: 45px;
+    }
+
+    .contact{
+        margin-bottom: 85px;
+    }
+
+    .map{
+        background: url('../img/map-320px.jpg') no-repeat;
+        margin-bottom: -330px;
+    }
+
+    /* Оформление свадьбы */
+
+    .wedding-bacground-leawes{
+        padding-top: 85px;
+    }
+
+    .position-text{
+        display: block;
+    }
+
+    .wedding-text{
+        width: 290px;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .swiper-container {
+        width: 290px;
+        height: 180px;
+    }
+
+    .swiper-pagination {
+        top: 360px;
+        width: auto !important;
+        left: 20px !important;
+        margin: 0;
+    }
+
+
+    /* Услуги */
+
+    .service-bacground-leawes{
+        padding-top: 85px;
+    }
+    
+    .service-list{
+        width: 290px;
+        display: block;
+        text-align: center;
+    }
+
+    .service-list-item{
+        width: 290px;
+        margin-right: 0;
+    }
+
+    .img-position-service{
+        width: 290px;
+        margin-left: 20px;
+    }
+
+    .img-position-service-320{
+        margin-left: 20px;
+    }
+
+    .position-service-caption-hover{
+        position: relative;
+        width: 260px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        border-radius: 20px 0px 20px 0px;
+        background-color: #ffffff;
+        margin-bottom: -5px;
+        -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        top: -30px;
+        left: 16px;
+    }
+
+    .position-service-caption-hover-320{
+        position: relative;
+        width: 260px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        border-radius: 20px 0px 20px 0px;
+        background-color: #ffffff;
+        margin-bottom: -5px;
+        -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        top: -30px;
+        left: -5px;
+    }
+
+    .catalog-list{
+        width: 290px;
+        display: block;
+        text-align: center;
+    }
+
+    .catalog-list-item{
+        width: 290px;
+        margin-right: 0;
+    }
+
+    .img-position-catalog{
+        width: 290px;
+        margin-left: 20px;
+    }
+
+    .position-catalog-caption-hover{
+        position: relative;
+        width: 255px;
+        padding-top: 2px;
+        padding-bottom: 1px;
+        border-radius: 20px 0px 20px 0px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+        top: -30px;
+        left: 20px;
+        margin-bottom: -30px;
+    }
+
+    .catalog-list-item{
+        margin-bottom: 40px;
+    }
+
+    .position-payment-img{
+        display: none;
+    }
+
+    .position-payment-img-320{
+        display: block;
+        width: 290px;
+        height: 275px;
+    }
+
+    .image-pay-320{
+        border-radius: 20px;
+    }
+
+    .pay{
+        width: 290px;
+    }
+
+    .payment-liat-item{
+        width: 290px;
+    }
+
+    .position-delivery{
+        width: 290px;
+        text-align: center;
+    }
+
+    .delivery-list{
+        width: 290px;
+    }
+
+    .delivery-price{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .position-delivery-price{
+        text-align: left;
+    }
+
+    .delivery-list-item{
+        margin-right: 25px;
+        padding-left: 0px;
+    }
+
+    .delivery-price-place{
+        font-size: 12px;
+    }
+
+    .position-abbout{
+        display: block;
+
+    }
+
+    .abbout-img{
+        position: absolute;
+        width: 290px;
+        height: 390px;
+        top: 840px;
+    }
+
+    .abbout{
+        padding-bottom: 500px;
+    }
+
+    .slide-320{
+        display: none;
+    }
+
+    .reviews-slide{
+        width: 260px !important;
+        height: 290px;
+        background-size: 63px 82px;
+        background-position: 40% 5%;
+    }
+
+    .caption-slider-abbout{
+        position: relative;
+        top: 95px;
+        width: 180px;
+        left: -125px;
+    }
+
+    .text-revies-slide {
+        position: relative;
+        top: 90px;
+        left: -200px;
+        margin-right: -220px;
+        line-height: 19,6px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .left-leaves-img{
+        background: url('../img/abbout-left-back-320.png') 0 0 no-repeat;
+        top: 25px;
+    }
+
+    .right-leaves-img{
+        display: none;
+    }
+
+    .card-product{
+        display: block;
+    }
+
+    .gallery-top{
+        width: 290px;
+        height: 290px;
+        border-radius: 20px;
+    }
+
+    .pagination-position-card{
+        display: none;
+    }
+
+    .article{
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .slider-card-product{
+        margin-bottom: -50px;
+    }
+
+    .card-product-description{
+        position: relative;
+        z-index: 90;
+    }
+
+    .main-caption-card-product{
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .card-price-decider-product{
+        font-size: 13px;
+    }
+
+    .product-card-list{
+        width: 260px;
+    }
+
+    .pay-list-item{
+        margin-right: 0px;
+    }
+
+    .pay-service-visa{
+        margin-right:-15px;
+    }
+
+    .add-to-cart-card{
+        margin-bottom: 20px;
+    }
+
+    .buy-fast-card{
+        margin-left: -30px;
+        margin-bottom: 80px;
+    }
+
+    .button-c{
+        width: 290px;
+        height: 150px;
+    }
+
+    .button-card-tex{
+        display: block;
+        width: 290px;
+    }
+
+    .block-position-on-btn{
+        left: 90px;
+    }
+
+    .text-card{
+        padding: 15px;
+    }
+
+    .card-list-item{
+        width: 290px;
+        margin-left: 15px;
+    }
+
+    .flag{
+        display: none;
+    }
+
+    .card-list-hover{
+        display: block;
+    }
+
+    .faworite-button,.add-button{
+        top: -230px;
+    }
+
+    .card-list-item{
+        margin-bottom: 50px;
+        box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .filter{
+        display: none;
+    }
+
+    .filter-320{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-filter{
+        display: none;
+    }
+
+    .position-categori{
+        display: block;
+    }
+
+    .dropbtn{
+        width: 290px;
+        background-color: #F7EFE7;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    .filter-320::before{
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        background: url('../img/arrow-filter.svg') no-repeat;
+    }
+
+    .card-list{
+        margin-left: 15px;
+    }
+
+    .card-list-item{
+        width: 290px;
+    }
+
+    .main-instagram-list{
+        margin-left: 15px;
+        display: block;
+    }
+
+    .main-instagram-list-item{
+        width: 290px;
+    }
+
+    .main-instagram-list-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    
+    .why-AreWe-list{
+        display: block;
+    }
+
+    .why-AreWe-list-item{
+        margin-right: 0;
+    }
+
+    .why-AreWe-list-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+
+    .why-AreWe-list-item h3{
+        margin-bottom: -15px;
+    }
+
+    .slider-index{
+        width: 290px;
+    }
+
+    .slider-nav{
+        position: relative;
+        z-index: 100;
+    }
+
+    .slider-main{
+        position: relative;
+        z-index: -90;
+    }
+    
+    .slider-bac{
+        height: 350px;
+        margin-bottom: 0;
+    }
+
+    .b-container{
+        display: block;
+    }
+
+    .padding-main-top{
+        padding-top: 85px;
+    }
+}

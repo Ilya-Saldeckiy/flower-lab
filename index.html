@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preload" href="fonts/Lovelace-Text-Light-trial.woff2" as="font">
 	<link rel="preload" href="fonts/Lovelace-Text-Medium-trial.woff2" as="font">
@@ -15,6 +16,7 @@
     <link rel="preload" href="fonts/Lovelace-Text-Bold-trial.woff2" as="font">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
@@ -30,7 +32,7 @@
             </ul>
         </div>
         </section>
-            <section>
+            <section class="header-info">
                 <div class="container info-header">
                 <img src="img/logo.png" alt="logo" class="logo">
                 <ul class="header-list list-reset">
@@ -38,7 +40,28 @@
                     <li class="top-header-list-item time-job-header">Работаем ежедневно с 08.00 до 21.00</li>
                     <li class="top-header-list-item favorite-header"></li>
                     <li class="top-header-list-item add-to-cart-header"></li>
+                    <!-- <li class="top-header-btn-320"><button onclick="PopUpActive()" class="burger"></button></li> -->
                 </ul>
+                <div class="b-container">
+                    <button onclick="PopUpShow()" class="burger"></button>
+                    <!-- <a href="javascript:PopUpShow()">Show popup</a> -->
+                </div>
+                <div class="b-popup" id="popup1">
+                    <div class="b-popup-content">
+                        Text in Popup
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function(){
+                        PopUpHide();
+                    });
+                    function PopUpShow(){
+                        $("#popup1").show();
+                    }
+                    function PopUpHide(){
+                        $("#popup1").hide();
+                    };
+                </script>
                 </div>
             </section>
             <section class="menu-header">
@@ -101,17 +124,17 @@
                 <div class="slider">
                   <div class="slider-nav">
                     <div class="swiper-wrapper">
-                      <div class="size-slider-pos swiper-slide position-text-slide">
+                      <div class="size-slider-pos position-text-slide swiper-slide position-text-slide">
                         <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
                         <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
                         <button type="button" class="buy-slider">Купить</button>
                       </div>
-                      <div class="size-slider-pos swiper-slide position-text-slide">
+                      <div class="size-slider-pos position-text-slide swiper-slide position-text-slide">
                         <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
                         <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
                         <button type="button" class="buy-slider">Купить</button>
                       </div>
-                      <div class="size-slider-pos swiper-slide position-text-slide">
+                      <div class="size-slider-pos position-text-slide swiper-slide position-text-slide">
                         <h1 class="caption-slider main-caption-section">Коллекция авторских коробок</h1>
                         <p class="slider-text">Бесплатная доставка по городу от 3000 рублей</p>
                         <button type="button" class="buy-slider">Купить</button>
