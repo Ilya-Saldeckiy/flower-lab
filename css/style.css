@@ -503,6 +503,7 @@ ul.menu > li:hover > ul.submenu {
     font-weight: normal;
     text-align: center;
     margin-bottom: 70px;
+    font-family: 'Lovelace';
 }
 
 .main-instagram-list{
@@ -534,7 +535,8 @@ ul.menu > li:hover > ul.submenu {
     margin-left: 42px;
     font-family: 'Lovelace';
     font-size: 16px;
-    margin-bottom: -10px;
+    line-height: 20.8px;
+    margin-bottom: -5px;
 }
 
 .card-text{
@@ -1536,6 +1538,7 @@ ul.menu > li:hover > ul.submenu {
     display: inline-flex;
     align-items: center;
     user-select: none;
+    color: #565656;
 }
 .custom-checkbox+label::before {
     content: '';
@@ -1566,6 +1569,7 @@ ul.menu > li:hover > ul.submenu {
     display: inline-flex;
     align-items: center;
     user-select: none;
+    color: #565656;
 }
 
 .custom-checkbox-radio+label::before {
@@ -2001,6 +2005,13 @@ background-image: url('../img/radio-check.svg');
     margin-bottom: 160px;
     position: relative;
     z-index: 90;
+}
+
+.card-input{
+    color: #fff;
+    padding-left: 13px;
+    font-size: 16px;
+    padding-right: 0;
 }
 
 .button-c{

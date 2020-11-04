@@ -84,7 +84,8 @@
 }
 
 .caption-slider{
-    width: 470px;
-    line-height: 60px;
+    width: 555px;
+    line-height: 60.5px;
+    font-size: 55px !important;
     margin-top: 150px;
 }
