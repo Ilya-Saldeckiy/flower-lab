@@ -3,11 +3,28 @@
     background: url('../img/bac-slider.png') no-repeat;
     mix-blend-mode: multiply;
     margin-bottom: -650px;
+    background-position: top center;
+    background-size: 1920px 695px;
 }
 
 .slider-nav .size-slider-pos {
 	width: 1165px;
     height: 690px;
+}
+
+.slider-main{
+    position: relative;
+    top: -55px;
+    left: 1515px;
+}
+
+.slider-nav{
+    position: relative;
+    left: -175px;
+}
+
+.slider-top{
+    padding-top: 20px;
 }
 
 .swiper-wrapper .position-slide{
@@ -22,9 +39,10 @@
     background: url('../img/left-arow-slide.png') 50% 50% no-repeat !important;
     background-color: black !important;
     width: 75px;
+    height: 61px;
     position: relative;
-    left: -438px;
-    top: 668px;
+    left: 615px;
+    top: 630px;
     outline: none;
     border: none;
     z-index: 5;
@@ -34,9 +52,10 @@
     background: url('../img/right-arrow-slide.png') 50% 50% no-repeat !important;
     background-color: black !important;
     width: 75px;
+    height: 61px;
     position: relative;
-    right: -1091px;
-    top: 646px;
+    right: -690px;
+    top: 591px;
     outline: none;
     border: none;
     z-index: 4;
@@ -52,16 +71,20 @@
     color: #ffffff;
     background-color: #191919;
     border: none;
-    border-radius: 20px 0;
+    border-radius: 30px 0;
 }
 
 .position-text-slide{
     position: relative;
-    left: 430px;
+    left: 190px;
+}
+
+.position-slide{
+    width: 750px;
 }
 
 .caption-slider{
-    width: 600px;
+    width: 470px;
     line-height: 60px;
     margin-top: 150px;
 }

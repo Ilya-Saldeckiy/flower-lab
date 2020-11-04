@@ -38,14 +38,14 @@ button{
 }
 
 .logo{
-    width: 153px;
-    height: 50px;
+    width: 190px;
+    height: 62px;
     margin-right: 70px;
 
 }
 
 .position-right{
-    margin-right: 215px;
+    margin-right: 271px;
 }
 
 .list-reset{
@@ -54,6 +54,7 @@ button{
 }
 
 .container{
+    padding: 0;
     margin: 0 auto;
     width: 1100px;
 }
@@ -75,6 +76,7 @@ button{
     display: -ms-flexbox;
     display: flex;
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .lower-border-header{
@@ -101,7 +103,7 @@ button{
 .time-job-header{
     font-size: 16px;
     width: 162px;
-    margin-right: 135px !important;
+    margin-right: 119px !important;
     margin-top: -15px;
     margin-left: -15px;
     color: #191919;
@@ -116,6 +118,7 @@ button{
     width: 25px;
     height: 25px;
     background: url('../img/faworite-header.svg') no-repeat;
+    margin-right: 90px !important;
 }
 
 .add-to-cart-header{
@@ -129,6 +132,7 @@ button{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-left: 0;
 }
 
 .top-header-list-item:not(:last-child){
@@ -142,7 +146,7 @@ button{
 
 .menu-header{
     background-color: #191919;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 .menu{
@@ -158,9 +162,9 @@ ul.menu > li {
 
 ul.menu > li > a {
     display: block;
-    padding: 10px;
+    padding: 0px;
     width: 100px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -168,15 +172,17 @@ ul.submenu {
     display: none;
     position: absolute;
     left: 0px;
+    z-index: 90;
 }
 ul.submenu > li {
     display: block;
+    width: 160px;
 }
 ul.submenu > li > a {
     display: block;
     padding: 10px;
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #191919;
 }
 
 ul.menu > li:hover > ul.submenu {
@@ -186,12 +192,12 @@ ul.menu > li:hover > ul.submenu {
 .menu-item{
     background: url('../img/arrow.svg')no-repeat;
     background-position: right;
-    margin-right: 20px;
+    margin-right: 47px;
     text-transform: uppercase;
 }
 
 .last-item-position{
-    margin-right: 295px;
+    margin-right: 215px;
 }
 
 .item-rose{
@@ -264,6 +270,20 @@ ul.menu > li:hover > ul.submenu {
     cursor: pointer;
 }
 
+.favorite-header,.add-to-cart-header{
+    padding-left: 30px;
+    color: #565656;
+}
+
+.top-header-list-item-right-col:not(:last-child){
+    margin-right: 87px;
+}
+
+.header-phone{
+    width: 300px;
+    margin-right: 114px;
+}
+
 
 
 /* footer */
@@ -279,12 +299,16 @@ ul.menu > li:hover > ul.submenu {
     display: flex;
 }
 
+.footer-menu-list-item{
+    color: #19191D;
+}
+
 .footer-menu-list-item:not(:last-child){
     margin-right: 40px;
 }
 
 .last-item-footer-left{
-    margin-right: 275px;
+    margin-right: 307px;
 }
 
 .copyrait{
@@ -299,11 +323,11 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .footer-copyrate{
-    margin-right: 400px;
+    margin-right: 405px;
 }
 
 .footer-inst-logo{
-    margin-right: 290px;
+    margin-right: 315px;
 }
 
 .button{
@@ -331,15 +355,22 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .card-list-item{
-    width: 235px;
+    width: 255px;
     padding-top: 255px;
     padding-bottom: 20px;
     border-radius: 20px;
     background-position: top center;
-    margin-right: 30px;
     margin-bottom: 55px;
     position: relative;
     z-index: 5;
+}
+
+.card-list-item:not(:last-child){
+    margin-right: 25px;
+}
+
+.card-list-item:nth-child(4n){
+    margin-right: 0px;
 }
 
 .flag{
@@ -348,13 +379,13 @@ ul.menu > li:hover > ul.submenu {
 
 .flag-hit{
     text-align: center;
-    width: 70px;
+    width: 60px;
     color: #ffffff;
-    font-weight: bold;
+    font-size: 12px;
     background-color: #333333;
     border-radius: 20px 0 0 20px;
     position: relative;
-    top: -252px;
+    top: -257px;
     left: 0px;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
@@ -363,14 +394,14 @@ ul.menu > li:hover > ul.submenu {
 
 .flag-new{
     text-align: center;
-    width: 50px;
+    width: 52px;
     color: #333333;
-    font-weight: bold;
-    background-color:#ECE2D6;
+    font-size: 12px;
+    background-color: #ECE2D6;
     border-radius: 20px 0 0 20px;
     position: relative;
-    top: -308px;
-    left: 50px;
+    top: -305px;
+    left: 40px;
     -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
             transform: rotate(-90deg);
@@ -389,12 +420,13 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .go-catalog{
-    padding-bottom: 5px;
+    padding-bottom: 12px;
     background: url('../img/line-arrow.svg')no-repeat;
-    background-position: bottom;
-    background-size: 100%;
+    background-position: left bottom;
     position: relative;
     z-index: 90;
+    color: #19191D;
+    text-transform: uppercase;
 }
 
 .go-catalog-position{
@@ -423,12 +455,23 @@ ul.menu > li:hover > ul.submenu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 70px;
+    margin-right: 30px;
 }
 
 .why-AreWe-text{
-    width: 200px;
+    width: 255px;
     margin-top: -25px;
+}
+
+.why-AreWe-p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.why-AreWe-caption-item{
+    font-size: 18px;
+    font-family: 'Lovelace';
+    margin-bottom: -13px;
 }
 
 
@@ -496,8 +539,10 @@ ul.menu > li:hover > ul.submenu {
 
 .card-text{
     text-align: center;
-    font-weight: 19px;
     margin-bottom: 0px;
+    line-height: 19px;
+    color: #565656;
+    margin-bottom: 10px;
 }
 
 .card-price-decider{
@@ -511,26 +556,26 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .faworite-button{
-    background: url('../img/favorite.png')no-repeat;
+    background: url('../img/favorite-card2.svg')no-repeat;
     background-position: center;
-    width: 40px;
-    height: 40px;
+    width: 51px;
+    height: 51px;
     border: none;
     position: relative;
-    top: -350px;
-    left: 28%;
+    top: -325px;
+    left: 70px;
     border-radius: 100%;
 }
 
 .add-button{
-    background: url('../img/add.png')no-repeat;
+    background: url('../img/add-to-cart-card.svg')no-repeat;
     background-position: center;
-    width: 40px;
-    height: 40px;
+    width: 51px;
+    height: 51px;
     border: none;
     position: relative;
-    top: -350px;
-    left: 31%;
+    top: -325px;
+    left: 75px;
     border-radius: 100%;
 }
 
@@ -544,6 +589,7 @@ ul.menu > li:hover > ul.submenu {
     position: relative;
     left: 14.5%;
     top: -50px;
+    text-transform: uppercase;
 }
 
 .card-list-hover{
@@ -614,14 +660,19 @@ ul.menu > li:hover > ul.submenu {
 
 .left-leaves{
     position: absolute;
-    top: 3100px;
+    top: 3150px;
     left: 0;
 }
 
 .right-leaves{
     position: absolute;
-    top: 3400px;
+    top: 3560px;
     right: 0;
+}
+
+.card-bacground-leawes{
+    background: url('../img/card-back-left.png') 0 25% no-repeat,
+    url('../img/card-back-right.png') 100% 55% no-repeat;
 }
 
 .card-hits-1{
@@ -708,8 +759,11 @@ ul.menu > li:hover > ul.submenu {
 /* Каталог */
 
 .catalog-list-item{
-    width: 235px;
-    margin-right: 30px;
+    width: 255px;
+}
+
+.catalog-list-item:not(:last-child){
+    margin-right: 25px;
 }
 
 .catalog-list-item-caption{
@@ -742,7 +796,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .link-to-main{
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .link-to-catalog{
@@ -750,7 +804,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .img-position-catalog{
-    width: 235px;
+    width: 255px;
     height: 235px;
     border-radius: 20px;
 }
@@ -761,7 +815,7 @@ ul.menu > li:hover > ul.submenu {
 
 .catalog-list-item:hover .position-catalog-caption-hover{
     position: relative;
-    width: 235px;
+    width: 255px;
     padding-top: 2px;
     padding-bottom: 1px;
     border-radius: 20px 0px 20px 0px;
@@ -793,9 +847,13 @@ ul.menu > li:hover > ul.submenu {
 
 
 .service-list-item{
-    width: 235px;
-    margin-right: 30px;
+    width: 255px;
     margin-bottom: 50px;
+    margin-right: 25px;
+}
+
+.service-list-item:nth-child(4n){
+    margin-right: 0px;
 }
 
 .service-list{
@@ -826,7 +884,14 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .link-to-service{
-    margin-left: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.link-service-card{
+    font-family: 'Lovelace';
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .service-position-links{
@@ -834,19 +899,19 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .img-position-service{
-    width: 235px;
+    width: 255px;
     height: 310px;
     border-radius: 20px;
 }
 
 .service-list-item:hover .position-service-caption-hover{
     position: relative;
-    width: 235px;
+    width: 255px;
     padding-top: 2px;
     padding-bottom: 1px;
     border-radius: 20px 0px 20px 0px;
     background-color: #ffffff;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
     -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
     top: -30px;
@@ -888,13 +953,13 @@ ul.menu > li:hover > ul.submenu {
 
 /* Оформление свадьбы */
 
-.link-to-service{
-    margin-left: 10px;
+.link-to-wedding{
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
-.link-to-wedding{
-    margin-left: 10px;
-    margin-right: 10px;
+.link-product{
+    margin-left: 8px;
 }
 
 .position-text{
@@ -905,11 +970,14 @@ ul.menu > li:hover > ul.submenu {
 
 .wedding-text{
     width: 445px;
-    margin-right: 125px;
+    margin-right: 123px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #565656;
 }
 
 .wedding-btn{
-    margin-top: 70px;
+    margin-top: 44px;
     color: #ffffff;
     background-color: #191919;
     width: 170px;
@@ -917,6 +985,11 @@ ul.menu > li:hover > ul.submenu {
     border-radius: 30px 0 30px 0;
     border: none;
     outline: none;
+    text-transform: uppercase;
+}
+
+.swiper-wrapper-wedding{
+    margin-left: 0 !important;
 }
 
 .wedding{
@@ -929,9 +1002,13 @@ ul.menu > li:hover > ul.submenu {
     url('../img/right-wedding-back.png') 100% 90% no-repeat;
 }
 
-.swiper-container {
+.swiper-container-wedding {
 	width: 530px;
 	height: 400px;
+}
+
+.swiper-slide-set img{
+    border-radius: 20px;
 }
 
 .swiper-pagination {
@@ -977,6 +1054,13 @@ ul.menu > li:hover > ul.submenu {
     color: #565656;
     font-size: 16px;
     font-weight: 400;
+    padding-left: 18px;
+}
+
+.text-position{
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .position-payment{
@@ -996,7 +1080,11 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .position-payment-img{
-    margin-right: 125px;
+    margin-right: 120px;
+}
+
+.payment-img{
+    border-radius: 20px;
 }
 
 .list-custom{
@@ -1018,12 +1106,14 @@ ul.menu > li:hover > ul.submenu {
 .delivery-price{
     color: #19191B;
     font-size: 16px;
+    margin-left: 10px;
 }
 
 .delivery-img{
     width: 445px;
     height: 600px;
     background: url('../img/delivery-img.png') no-repeat;
+    border-radius: 20px;
 }
 
 .delivery{
@@ -1031,12 +1121,18 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .deliveri-caption{
-    margin-bottom: 70px;
+    margin-bottom: 70px;  
+    margin-top: 5px;
+}
+
+.delivery-text-settings-text{
+    margin-bottom: 55px;
 }
 
 .delivery-text{
     width: 540px;
-    margin-right: 125px;
+    margin-right: 115px;
+    line-height: 24px;
 }
 
 .delivery-list{
@@ -1050,9 +1146,10 @@ ul.menu > li:hover > ul.submenu {
     margin-bottom: -15px;
     color: #565656;
     font-size: 16px;
+    margin-left: -20px;
 }
 
-.delivery-list-item{
+.delivery-list-item:not(:last-child){
     width: 160px;
     margin-right: 30px;
 }
@@ -1070,7 +1167,7 @@ ul.menu > li:hover > ul.submenu {
 /* Контакты */
 
 .contact{
-    margin-bottom: 180px;
+    margin-bottom: 179px;
 }
 
 .caption-form{
@@ -1081,28 +1178,35 @@ ul.menu > li:hover > ul.submenu {
 .contact-caption{
     display: block;
     position: relative;
-    top: 70px;
+    top: 90px;
 }
 
 .contact-adress{
-    width: 540px;
+    width: 620px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-top: 90px;
-    margin-right: 85px;
+    margin-right: 35px;
 }
 
 .position-adres{
-    width: 235px;
-    margin-right: 30px;
+    width: 255px;
+    margin-right: 27px;
     margin-bottom: 70px;
 }
 
 .left-dot{
     padding-left: 22px;
+    color: #19191D;
+    font-size: 16px;
+}
+
+.adress-teg{
+    color: #565656;
+    margin-bottom: 10px;
 }
 
 .left-dot::before{
@@ -1114,6 +1218,10 @@ ul.menu > li:hover > ul.submenu {
     height: 12px;
     background-color: #191919;
     border-radius: 10px 0px 10px 0px;
+}
+
+.left-dot-time{
+    margin-top: 0;
 }
 
 .left-dot-time::before{
@@ -1163,11 +1271,12 @@ ul.menu > li:hover > ul.submenu {
     width: 170px;
     height: 45px;
     border: none;
-    border-radius: 20px 0;
+    border-radius: 30px 0;
     background-color: #191919;
     color: #ffffff;
     margin-left: 87px;
     outline: none;
+    text-transform: uppercase;
 }
 
 .text-check{
@@ -1213,6 +1322,10 @@ ul.menu > li:hover > ul.submenu {
     margin-bottom: 90px;
 }
 
+.abbout-liat-item{
+    padding-left: 14px;
+}
+
 .abbout-us-caption{
     margin-bottom: 70px;
 }
@@ -1237,7 +1350,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .position-abbout-img{
-    margin-right: 125px;
+    margin-right: 120px;
 }
 
 .abbout-img{
@@ -1276,7 +1389,7 @@ ul.menu > li:hover > ul.submenu {
 
 .text-revies-slide{
     width: 330px;
-    line-height: 19,6px;
+    line-height: 19px;
 }
 
 .swiper-pagination-abbout{
@@ -1302,26 +1415,35 @@ ul.menu > li:hover > ul.submenu {
     width: 170px;
     height: 45px;
     background-color: #191919;
-    border-radius: 20px 0;
+    border-radius: 30px 0;
+    border: none;
     color: #ffffff;
     position: relative;
     top: -140px;
+    text-transform: uppercase;
 }
 
 .left-leaves-img{
     position: relative;
     top: -44px;
-    left: -68px;
+    left: -85px;
 }
 
 .right-leaves-img{
     position: relative;
-    top: -46px;
-    right: -70px;
+    top: -44px;
+    right: -85px;
+
 }
 
 .compani-bacground-leawes{
     background: url('../img/left-back-abbout.png') 0 115% no-repeat;
+}
+
+.caption-slider-abbout{
+    font-family: 'Lovelace';
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .caption-slider-abbout::before{
@@ -1395,13 +1517,76 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .amount-style{
-    width: 40px;
+    width: 75px;
     color: #191919 !important;
     background: none;
-    margin-right: 20px;
+    padding-bottom: 8px;
+    margin-right: 60px;
     border-bottom: 2px solid #565656 !important;
     border: none;
     outline: none;
+}
+
+.custom-checkbox{
+    position: relative;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: none;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #fff;
+    margin-right: 12px;
+    margin-left: -30px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+}
+.custom-checkbox:checked+label::before {
+    background-image: url('../img/check-box.svg');
+}
+
+.custom-checkbox-radio{
+    position: relative;
+    opacity: 0;
+}
+
+.custom-checkbox-radio+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: none;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #fff;
+    margin-right: 12px;
+    margin-left: -30px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+}
+
+.custom-checkbox-radio:checked+label::before {
+background-image: url('../img/radio-check.svg');
 }
 
 .filter-categori{
@@ -1414,10 +1599,11 @@ ul.menu > li:hover > ul.submenu {
 
 .filter-price{
     padding: 10px 20px;
-    width: 235px;
-    background-color:#F6EFE7;
+    width: 255px;
     border-radius: 10px;
     margin-bottom: 10px;
+    background: url('../img/line-filter.svg') 50% 80% no-repeat;
+    background-color:#F6EFE7;
 }
 
 .dropbtn {
@@ -1458,7 +1644,7 @@ ul.menu > li:hover > ul.submenu {
 
 .filter{
     padding: 10px 40px;
-    width: 235px;
+    width: 255px;
     background-color:#F6EFE7;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -1567,6 +1753,45 @@ ul.menu > li:hover > ul.submenu {
     background: url('../img/card-relevant-4.png')no-repeat;
 }
 
+.card-list-item-filter{
+    width: 255px;
+    padding-top: 255px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-position: top center;
+    margin-bottom: 55px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 5;
+}
+
+.card-list-item-filter:nth-child(3n){
+    margin-right: 0;
+}
+
+.card-list-item-filter:hover .flag{
+    display: none;
+}
+
+.card-list-item-filter:hover .card-list-hover{
+    display: block;
+}
+
+.card-list-item-filter:hover{
+    -webkit-box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1)
+}
+
+/* .line-filter{
+    width: 17px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    background-color: #191919;
+    background: url('../img/line-filter.svg') no-repeat;
+} */
+
 
 
 /* Карточка продукта */
@@ -1581,12 +1806,13 @@ ul.menu > li:hover > ul.submenu {
 
 .pagination-position-card{
     position: absolute;
-    top: 805px;
-    right: 855px;
+    top: 845px;
+    right: 875px;
 }
 
-.gallery-top{
-    margin-bottom: 50px;
+.position-slide-card{
+    margin-left: 0;
+    border-radius: 20px;
 }
 
 .slide-card-btn{
@@ -1600,7 +1826,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .slider-card-product{
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 .card-product{
@@ -1608,6 +1834,43 @@ ul.menu > li:hover > ul.submenu {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 150px;
+}
+
+.btn-minus{
+    background: url('../img/minus.svg') 50% 50% no-repeat;
+}
+
+.btn-plus{
+    background: url('../img/plus.svg') 50% 50% no-repeat;
+}
+
+.set-service{
+    margin-bottom: -55px;
+}
+
+.set-btn-position{
+    margin-bottom: 40px;
+}
+
+.card-btn{
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-color:  #F6EFE7;
+    border-radius: 8px;
+}
+
+.card-input{
+    position: relative;
+    top: -7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #19191d;
+    border: none;
+    border-radius: 8px;
+    outline: none;
 }
 
 .swiper-slide-thumbs{
@@ -1622,8 +1885,8 @@ ul.menu > li:hover > ul.submenu {
 .product-card-list{
     position: relative;
     top: -45px;
-    left: 50px;
-    width: 445px;
+    left: 60px;
+    width: 465px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1638,7 +1901,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .product-card-list-item:nth-child(n-2){
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .position-settings-product{
@@ -1679,6 +1942,7 @@ ul.menu > li:hover > ul.submenu {
     width: 55px;
     height: 30px;
     background: url('../img/visa.png')no-repeat;
+    margin-left: 10px;
 }
 
 .pay-service-master{
@@ -1704,6 +1968,8 @@ ul.menu > li:hover > ul.submenu {
 
 .catalog-position-links{
     padding-top: 40px;
+    margin-bottom: 72px;
+    color: #797979;
 }
 
 .payment-list-service-pay{
@@ -1717,7 +1983,9 @@ ul.menu > li:hover > ul.submenu {
     height: 45px;
     color: #ffffff;
     background-color: #19191D;
-    border-radius: 20px 0px;
+    border-radius: 30px 0px;
+    border: none;
+    text-transform: uppercase;
 }
 
 .buy-fast-card{
@@ -1730,8 +1998,7 @@ ul.menu > li:hover > ul.submenu {
 }
 
 .position-button-cart{
-    margin-top: -150px;
-    margin-bottom: 150px;
+    margin-bottom: 160px;
     position: relative;
     z-index: 90;
 }
@@ -1757,38 +2024,101 @@ ul.menu > li:hover > ul.submenu {
     color: #565656;
 }
 
-.button-card-tex:focus{
-    background-color: #ECE2D6;
-    border-radius: 10px;
-    color: #191919;
-}
 
-.button-card-tex:focus .block-position-on-btn{
-    display: block;
-}
-
-.block-position-on-btn{
-    width: 100px;
-    height: 10px;
-    background-color: black;
-    border-radius: 10px 0;
-    position: relative;
-    top: 21px;
-    left: 20px;
-    margin-top: -10px;
+.tabs>input[type="radio"] {
     display: none;
 }
 
-.text-card{
-    width: 100%;
-    padding: 50px;
+.tabs{
+    background-color: #F6EFE7;
+    width: 447px;
+    border-radius: 10px;
+    border: none;
+}
+
+  .tabs>div {
+    display: none;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
+  }
+
+
+  #tab-btn-1:checked~#content-1,
+  #tab-btn-2:checked~#content-2,
+  #tab-btn-3:checked~#content-3 {
+    display: block;
+  }
+
+  .tabs>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    user-select: none;
     color: #565656;
+    background-color: #F6EFE7;
+    border: none;
+    width: 150px;
+    height: 48px;
+    margin-right: -5px;
+    padding-top: 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .tabs>label{
+    border-radius: 10px;
+  }
+
+  .tabs>input[type="radio"]:checked+label {
+    height: 48px;
+    background-color: #ECE2D6;
+    border-radius: 10px;
+    color: #191919;
+  }
+
+  .tabs>input[type="radio"]:checked+label>div{
+      display: block;
+  }
+
+  .content{
+    width: 1110px;
+    background: #fff;
+    border: none;
+}
+
+
+.block-position-on-btn{
+    width: 100px;
+    height: 6px;
+    background-color: #19191D;
+    border-radius: 6px 0;
+    position: absolute;
+    top: 45px;
+    left: 23px;
+    display: none;
+}
+
+
+.text-width{
+    width: 830px;
+    margin-left: 50px;
 }
 
 .similar-products{
     margin-bottom: 110px;
+}
+
+.article{
+    color: #565656;
+}
+
+.position-price-card-product{
+    margin-bottom: 50px;
 }
 
 .main-caption-card-product{
@@ -1796,6 +2126,8 @@ ul.menu > li:hover > ul.submenu {
     font-size: 42px;
     font-weight: 500;
     line-height: 54px;
+    margin-top: 17px;
+    margin-bottom: 25px;
 }
 
 .card-price-decider-product{
@@ -1809,12 +2141,8 @@ ul.menu > li:hover > ul.submenu {
     font-weight: bold;
 }
 
-.set-list{
-    margin-top: 40px;
-}
-
 .set-size{
-    margin-bottom: -25px;
+    margin-bottom: -35px;
     margin-top: -40px;
 }
 

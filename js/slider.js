@@ -4,7 +4,7 @@ const sliderNav = document.querySelector('.slider-nav');
 let mySwiperNav = new Swiper(sliderNav, {
 watchSlidesVisibility: true,
 watchSlidesProgress: true,
-spaceBetween: 400,
+spaceBetween: 300,
 simulateTouch:false,
 loop: true,
 direction: 'horizontal',
@@ -29,13 +29,9 @@ prevEl: '.swiper-button-prev',
 })
 
 let mySwiper = new Swiper(slider, {
-spaceBetween: 600,
+spaceBetween: 300,
 simulateTouch:false,
 loop: true,
-pagination: {
-el: '.swiper-pagination',
-clickable: true,
-},
 breakpoints: {
     320: {
       slidesPerView: 1,

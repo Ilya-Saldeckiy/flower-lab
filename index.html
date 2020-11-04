@@ -10,10 +10,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="preload" href="fonts/Lovelace-Text-Light-trial.woff2" as="font">
-	<link rel="preload" href="fonts/Lovelace-Text-Medium-trial.woff2" as="font">
-    <link rel="preload" href="fonts/Lovelace-Text-Extrabold-trial.woff2" as="font">
-    <link rel="preload" href="fonts/Lovelace-Text-Bold-trial.woff2" as="font">
+    <link rel="preload" href="fonts/Lovelace-Light.woff2" as="font">
+	<link rel="preload" href="fonts/Lovelace-Regular.woff2" as="font">
+    <link rel="preload" href="fonts/Lovelace-Medium.woff2" as="font">
+    <link rel="preload" href="fonts/Lovelace-Bold.woff2" as="font">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -25,10 +25,10 @@
             <div class="container">
             <ul class="header-list list-reset">
                 <li class="top-header-list-item"><a href="#" class="lower-border-header">Авторизация</a></li>
-                <li class="position-right"><a href="#" class="lower-border-header">Воронеж ул. Пушкинская д. 45</a></li>
-                <li class="top-header-list-item"><a href="payment.html">Оплата и доставка</a></li>
-                <li class="top-header-list-item"><a href="abbout-us.html">О компании</a></li>
-                <li class="top-header-list-item"><a href="contacts.html">Контакты</a></li>
+                <li class="position-right"><a target="_blank" href="https://yandex.ru/maps/193/voronezh/house/pushkinskaya_ulitsa_45/Z0AYdw9pSUwDQFtrfXp0dnhlZg==/?ll=39.189183%2C51.657494&z=19.35" class="lower-border-header">Воронеж ул. Пушкинская д. 45</a></li>
+                <li class="top-header-list-item-right-col"><a href="payment.html">Оплата и доставка</a></li>
+                <li class="top-header-list-item-right-col"><a href="abbout-us.html">О компании</a></li>
+                <li class="top-header-list-item-right-col"><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
         </section>
@@ -36,70 +36,49 @@
                 <div class="container info-header">
                 <img src="img/logo.png" alt="logo" class="logo">
                 <ul class="header-list list-reset">
-                    <li class="top-header-list-item"><a href="tel:+79036510005" class="link-header-phone">+7 903-651-00-05</a></li>
+                    <li class="header-phone"><a href="tel:+79036510005" class="link-header-phone">+7 903-651-00-05</a></li>
                     <li class="top-header-list-item time-job-header">Работаем ежедневно с 08.00 до 21.00</li>
-                    <li class="top-header-list-item favorite-header"></li>
-                    <li class="top-header-list-item add-to-cart-header"></li>
-                    <!-- <li class="top-header-btn-320"><button onclick="PopUpActive()" class="burger"></button></li> -->
+                    <li class="top-header-list-item favorite-header">0</li>
+                    <li class="top-header-list-item add-to-cart-header">0</li>
                 </ul>
-                <div class="b-container">
-                    <button onclick="PopUpShow()" class="burger"></button>
-                    <!-- <a href="javascript:PopUpShow()">Show popup</a> -->
-                </div>
-                <div class="b-popup" id="popup1">
-                    <div class="b-popup-content">
-                        Text in Popup
-                    </div>
-                </div>
-                <script>
-                    $(document).ready(function(){
-                        PopUpHide();
-                    });
-                    function PopUpShow(){
-                        $("#popup1").show();
-                    }
-                    function PopUpHide(){
-                        $("#popup1").hide();
-                    };
-                </script>
                 </div>
             </section>
             <section class="menu-header">
                 <nav class="container">
                     <ul class="menu list-reset">
-                        <li class="menu-item item-rose"><a href="#">Розы</a>
+                        <li class="menu-item item-rose"><a href="catalog.html">Розы</a>
                             <ul class="submenu list-reset">
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item item-flower"><a href="#">Букеты</a>
+                        <li class="menu-item item-flower"><a href="catalog.html">Букеты</a>
                             <ul class="submenu list-reset">
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item item-box"><a href="#">Коробки</a>
+                        <li class="menu-item item-box"><a href="catalog.html">Коробки</a>
                             <ul class="submenu list-reset">
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item item-giff"><a href="#">Подарки</a>
+                        <li class="menu-item item-giff"><a href="catalog.html">Подарки</a>
                             <ul class="submenu list-reset">
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
                             </ul>
                         </li>
                         <li class="menu-item last-item-position item-service"><a href="services.html">Услуги</a>
                             <ul class="submenu list-reset">
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
-                                <li><a href="#">Красные</a></li>
+                                <li><a href="wedding-decoration.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
+                                <li><a href="categori.html">Красные</a></li>
                             </ul>
                         </li>
                         <li>
@@ -114,6 +93,7 @@
     </header>
     <main>
         <section class="slider-bac">
+            <div class="container">
             <div class="slider-container">
                 <div class="slider-top">
                   <div class="slider-buttons">
@@ -157,6 +137,7 @@
                     </div>
                   </div>
                   <script src="js/slider.js"></script>
+                </div>
         </section>
         <section class="products">
             <div class="container">
@@ -418,22 +399,22 @@
                     <li class="why-AreWe-list-item">
                         <span class="why-AreWe-box box-bouquet"></span>
                         <span class="why-AreWe-text">
-                            <h3>Безупречный сервис</h3>
-                            <p>Отправляем фото перед доставкой цветов</p>
+                            <h3 class="why-AreWe-caption-item">Безупречный сервис</h3>
+                            <p class="why-AreWe-p">Отправляем фото перед доставкой цветов</p>
                         </span>
                     </li>
                     <li class="why-AreWe-list-item">
                         <span class="why-AreWe-box box-birthday"></span>
                         <span class="why-AreWe-text">
-                            <h3>Открытка в подарок</h3>
-                            <p>В подарок к заказу карточка с Вашим текстом</p>
+                            <h3 class="why-AreWe-caption-item">Открытка в подарок</h3>
+                            <p class="why-AreWe-p">В подарок к заказу карточка с Вашим текстом</p>
                         </span>
                     </li>
                     <li class="why-AreWe-list-item">
                         <span class="why-AreWe-box box-truck"></span>
                         <span class="why-AreWe-text">
-                            <h3>Бесплатная доставка</h3>
-                            <p>Любой заказ от 3000 рублей доставляем бесплатно</p>
+                            <h3 class="why-AreWe-caption-item">Бесплатная доставка</h3>
+                            <p class="why-AreWe-p">Любой заказ от 3000 рублей доставляем бесплатно</p>
                         </span>
                     </li>
                 </ul>
@@ -481,9 +462,9 @@
             <div class="container">
                 <ul class="footer-menu-list list-reset">
                     <li class="footer-menu-list-item"><a href="index.html">Главная</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Розы</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Коробки</a></li>
-                    <li class="footer-menu-list-item"><a href="#">Подарки</a></li>
+                    <li class="footer-menu-list-item"><a href="categori.html">Розы</a></li>
+                    <li class="footer-menu-list-item"><a href="categori.html">Коробки</a></li>
+                    <li class="footer-menu-list-item"><a href="categori.html">Подарки</a></li>
                     <li class="footer-menu-list-item"><a href="services.html" class="last-item-footer-left">Услуги</a></li>
                     <li class="footer-menu-list-item"><a href="payment.html">Оплата и доставка</a></li>
                     <li class="footer-menu-list-item"><a href="abbout-us.html">О компании</a></li>
