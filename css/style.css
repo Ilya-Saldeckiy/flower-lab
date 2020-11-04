@@ -662,13 +662,13 @@ ul.menu > li:hover > ul.submenu {
 
 .left-leaves{
     position: absolute;
-    top: 3150px;
+    top: 3075px;
     left: 0;
 }
 
 .right-leaves{
     position: absolute;
-    top: 3560px;
+    top: 3490px;
     right: 0;
 }
 
