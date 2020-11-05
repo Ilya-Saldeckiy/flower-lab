@@ -28,6 +28,10 @@ a{
     color: #565656;
 }
 
+button{
+    text-transform: uppercase;
+}
+
 img{
 	max-width: 100%;
 }

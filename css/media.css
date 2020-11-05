@@ -494,16 +494,15 @@
     }
 
     .footer-inst-logo img {
-        width: 60px;
+        width: 35px;
         position: relative;
-        left: 380px;
-        top: 0px;
+        left: 400px;
+        top: -25px;
     }
 
     .footer-inst-logo {
         margin-right: 0px;
         position: absolute;
-        top: 1980px;
     }
 
     .contact-callback {
@@ -515,6 +514,74 @@
 
     .list-copyrait {
         display: block;
+    }
+
+    .payment-img {
+        border-radius: 20px;
+        width: 350px;
+        height: 330px;
+    }
+
+    .position-payment-img {
+        position: absolute;
+        top: 450px;
+        left: 80px;
+        margin-right: 0;
+    }
+
+    .delivery-text {
+        width: 430px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .delivery-list-item:not(:last-child) {
+        margin-right: -5px;
+    }
+
+    .delivery-img{
+        width: 430px;
+        margin-left: 0;
+    }
+
+    .wedding-text {
+        width: 430px;
+        margin-bottom: 60px;
+    }
+
+    .abbout-img {
+        max-width: 430px;
+    }
+
+    .abbout-img {
+        top: 710px;
+        left: 20px;
+    }
+
+    .slide-320{
+        display: none;
+    }
+
+
+    .leave-revies-btn {
+        left: 0;
+        top: -180px;
+        z-index: 2;
+    }
+
+    .right-leaves-img{
+        right: -105px;
+        top: -303px;
+        z-index: 0;
+    }
+
+    .gallery-thumbs, .gallery-top {
+        width: 480px;
+        margin-left: 30px;
+    }
+
+    .btn-filter-drop{
+        left: 73px;
     }
 }
 
