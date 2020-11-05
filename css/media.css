@@ -1,4 +1,8 @@
 @media(max-width:992px){
+    html, body {
+        overflow-x: hidden;
+    }
+    
     .container{
         width: 950px;
     }
