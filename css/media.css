@@ -466,28 +466,6 @@
     }
 }
 
-@media(max-width:769px) and (min-width:481px){
-    
-    .container{
-        width: 650px;
-    }
-    
-    .logo {
-        width: 190px;
-        height: 62px;
-        margin-right: -160px;
-    }
-
-    .contact-callback {
-        margin-left: 25px;
-    }
-
-    .contact-adress {
-        width: 600px;
-        padding-left: 40px;
-    }
-}
-
 @media(max-width:480px){
     .container{
         width: 430px;
