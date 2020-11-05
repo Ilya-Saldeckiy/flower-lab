@@ -3,14 +3,25 @@ var mySwiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
     loop: true,
     spaceBetween: 200,
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
 
+    breakpoints: {
+        920: {
+            slidesPerView: 1,
+            spaceBetween: 600,
+        },
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 800
+        },
+    },
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 
     // Navigation arrows

@@ -13,7 +13,7 @@ $( function() {
     $( "#amount2" ).val($( "#slider-range" ).slider( "values", 1)));
   } );
 
-  function myFunction0(){
+  function myFunction11(){
     document.getElementById("myDropdown0").classList.toggle("show");
   }
 

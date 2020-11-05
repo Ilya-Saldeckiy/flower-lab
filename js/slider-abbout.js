@@ -17,6 +17,7 @@ var mySwiper = new Swiper('.swiper-container-abbout', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination-abbout',
+        clickable: true,
     },
 
     // Navigation arrows

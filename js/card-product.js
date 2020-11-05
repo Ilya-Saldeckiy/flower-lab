@@ -28,5 +28,6 @@ var galleryTop = new Swiper('.gallery-top', {
   },
   pagination: {
     el: '.swiper-pagination',
+    clickable: true,
   }
 });

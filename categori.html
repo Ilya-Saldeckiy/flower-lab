@@ -96,12 +96,12 @@
                 <a href="index.html" class="link-to-main">Главная</a>|<a href="catalog.html" class="link-to-catalog">Каталог</a>|<a href="categori.html" class="link-to-categori">Категория 1</a>
             </div>
             <section class="categori">
-                <button type="button" onclick="myFunction0()" class="dropbtn filter-320">Фильтр</button>
-               <h2 class="main-caption">Категория товара</h2>
+                <button type="button" onclick="myFunction11()" class="btn-filter-drop dropbtn filter-320">Фильтр</button>
+               <h2 class="main-caption desctop-caption">Категория товара</h2>
                <div class="position-categori">
-               <div class="position-filter">
+               <div class="position-filter dropdown-content-filter" id="myDropdown0" >
                    <form action="">
-                   <div id="myDropdown0" class="filter">
+                   <div class="filter">
                     <button type="button" onclick="myFunction()" class="dropbtn">Категория</button>
                     <div id="myDropdown" class="dropdown-content">
                         <input type="radio" id="radio1" class="radio-input custom-checkbox-radio">
@@ -178,6 +178,7 @@
                 </form>
                </div>
                <div class="products-categori">
+                <h2 class="main-caption mobile-caption">Категория товара</h2>
                 <ul class="card-list list-reset">
                     <li class="card-list-item-filter categori-card-1">
                         <div class="flag">
@@ -391,12 +392,14 @@
     </main>
     <footer>
         <section class="top-link-footer">
-            <div class="container">
-                <ul class="footer-menu-list list-reset">
+            <div class="container position-footer">
+                <ul class="footer-menu-list list-reset footer-position-mobile">
                     <li class="footer-menu-list-item"><a href="index.html">Главная</a></li>
                     <li class="footer-menu-list-item"><a href="categori.html">Розы</a></li>
                     <li class="footer-menu-list-item"><a href="categori.html">Коробки</a></li>
-                    <li class="footer-menu-list-item"><a href="categori.html">Подарки</a></li>
+                    <li class="footer-menu-list-item footer-left-col"><a href="categori.html">Подарки</a></li>
+                </ul>
+                <ul class="footer-menu-list list-reset">
                     <li class="footer-menu-list-item"><a href="services.html" class="last-item-footer-left">Услуги</a></li>
                     <li class="footer-menu-list-item"><a href="payment.html">Оплата и доставка</a></li>
                     <li class="footer-menu-list-item"><a href="abbout-us.html">О компании</a></li>

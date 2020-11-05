@@ -1,3 +1,472 @@
+@media(max-width:992px){
+    .container{
+        width: 950px;
+    }
+
+    .position-right {
+        margin-right: 120px;
+    }
+
+    .header-phone {
+        margin-right: -35px;
+    }
+
+    .last-item-position {
+        margin-right: 65px;
+    }
+
+    .last-item-footer-left {
+        margin-right: 155px;
+    }
+
+    .footer-copyrate {
+        margin-right: 350px;
+    }
+
+    .footer-inst-logo {
+        margin-right: 215px;
+    }
+
+    /* Главная */
+
+    .slider-main {
+        left: 1155px;
+    }
+
+    .slider-btn-main{
+        position: relative;
+        left: -209px;
+    }
+
+    .why-AreWe-list {
+        flex-wrap: wrap;
+        padding-left: 120px;
+    }
+
+    .why-AreWe-list-item{
+        margin-bottom: 50px;
+    }
+
+    .why-AreWe-list-item:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    .text-position-why-990{
+        position: relative;
+        left: 180px;
+    }
+
+    .card-list{
+        padding-left: 92px;
+    }
+
+    .card-list-item:nth-child(4n) {
+        margin-right: 25px;
+    }
+
+    .card-list-item:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    .main-instagram-list {
+        padding-left: 225px;
+        flex-wrap: wrap;
+    }
+
+    .main-instagram-list-item {
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+
+
+    /* Контакты */
+
+    .contact-adress {
+        padding-top: 70px;
+    }
+
+    .position-adres {
+        margin-bottom: 15px;
+    }
+
+    .contact {
+        margin-bottom: 130px;
+    }
+    
+    .delivery-list-item:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .wedding-text{
+        margin-right: 80px;
+    }
+
+    .wedding-btn{
+        margin-top: 35px;
+    }
+
+    /* Услуги */
+
+    .service-list-item:nth-child(4n){
+        margin-right: 25px;
+    }
+
+    .service-list-item:nth-child(3n){
+        margin-right: 0px;
+    }
+
+    .service-list{
+        padding-left: 92px;
+    }
+
+    /* О компании */
+
+    .reviews-slide{
+        width: 260px !important;
+        padding-right: 15px;
+    }
+
+    .text-revies-slide {
+        width: 270px;
+    }
+
+    .left-leaves-img {
+        left: -10px;
+    }
+
+    .right-leaves-img {
+        right: -10px;
+    }
+
+    .product-card-list{
+        left: 40px;
+    }
+
+    .slider-card-product {
+        margin-right: 60px;
+    }
+
+    .pagination-position-card {
+        position: absolute;
+        top: 830px;
+    }
+
+    .content {
+        width: 950px;
+    }
+
+    .card-list-item-filter:nth-child(2n){
+        margin-right: 0px;
+    }
+
+    .card-list-item-filter:nth-child(3n){
+        margin-right: 25px;
+    }
+
+    .position-filter {
+        margin-right: -50px;
+    }
+
+    /* Каталог */
+
+
+    .catalog-list{
+        padding-left: 225px;
+    }
+
+    .catalog-list-item{
+        margin-bottom: 25px;
+    }
+
+    .catalog-list-item:nth-child(2n) {
+        margin-right: 0px;
+    }
+    
+}
+
+@media(max-width:768px){
+    .container{
+        width: 720px;
+    }
+
+    .header-info{
+        padding-top: 0px;
+        padding-bottom: 12px;
+        box-shadow: 0px 0px 10px rgba(25, 25, 29, 0.2);
+        z-index: 90;
+        position: relative;
+    }
+
+    .main-caption,.main-caption-section{
+        font-size: 26px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .top-header{
+        display: none;
+    }
+
+    .time-job-header,.link-header-phone,.menu-header,.catalog-position-links{
+        display: none;
+    }
+
+    .contacts-bacground-leawes{
+        background: none;
+    }
+
+    /* footer */
+
+    .footer-position-mobile{
+        margin-right: 490px;
+    }
+
+    .footer-menu-list{
+        display: block;
+    }
+
+    .footer-copyrate {
+        margin-right: 210px;
+    }
+
+    .footer-inst-logo {
+        margin-right: 130px;
+    }
+
+    /* Каталог */
+
+    .catalog-list {
+        padding-left: 105px;
+    }
+
+    /* Категории */
+    
+    .filter-320{
+        display: block;
+    }
+
+    .position-categori {
+        display: block;
+    }
+
+    .dropdown-content-filter{
+        display: none;
+        background: none;
+        min-width: 230px;
+        border: none;
+    }
+
+    .desctop-caption{
+        display: none;
+    }
+
+    .mobile-caption{
+        display: block;
+    }
+
+    .btn-filter-drop{
+        width: 290px;
+        border-radius: 10px;
+        position: relative;
+        left: 220px;
+        background: url('../img/arrow-filter.svg') 30% no-repeat;
+        background-color:  #F7EFE7;
+        margin-bottom: 30px;
+    }
+
+    .filter-price,.filter{
+        width: 290px;
+    }
+
+    .position-filter {
+        position: relative;
+        left: 220px;
+        margin-bottom: 40px;
+    }
+
+    /* Главная */
+
+    .card-list-item:nth-child(3n) {
+        margin-right: 25px;
+    }
+
+    .card-list-item:nth-child(2n) {
+        margin-right: 25px;
+    }
+
+    .text-position-why-990 {
+        left: 0;
+    }
+
+    .main-instagram-list {
+        padding-left: 92px;
+        flex-wrap: wrap;
+    }
+
+    .why-AreWe-list {
+        padding-left: 185px;
+    }
+
+    /* Карточка товара */
+
+    .card-product {
+        display: block;
+    }
+
+    .slider-card-product {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .main-caption-card-product{
+        width: 580px;
+    }
+
+    .pagination-position-card {
+        position: absolute;
+        top: 570px;
+        right: 215px;
+    }
+
+    .content {
+        width: 740px;
+    }
+
+    .text-width {
+        width: 650px;
+    }
+
+    /* О компании */
+
+    .position-abbout {
+        display: block;
+    }
+
+    .abbout-img {
+        position: absolute;
+        top: 660px;
+        left: 152px;
+    }
+
+    .abbout{
+        padding-bottom: 800px;
+    }
+
+    .abbout-text{
+        text-align: center;
+    }
+
+    .reviews-slide {
+        width: 310px !important;
+        padding-top: 185px;
+        padding-left: 30px;
+        background-position: 50% 3%;
+        background-size: 40%;
+        text-align: center;
+    }
+
+    .swiper-wrapper {
+        margin-left:  15px;
+    }
+
+    .leave-revies-btn{
+        left: -180px;
+        z-index: 2;
+    }
+
+    .left-leaves-img{
+        left: -80px;
+    }
+
+    .right-leaves-img {
+        right: -180px;
+        top: -265px;
+        z-index: 0;
+    }
+
+
+    /* Услуги */
+
+
+    .service-list-item:nth-child(3n) {
+        margin-right: 25px;
+    }
+
+    .service-list-item:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    /* Услуга */
+
+    .position-text {
+        display: block;
+        text-align: center;
+    }
+
+    .wedding-text{
+        width: 740px;
+        margin-bottom: 60px;
+    }
+
+    /* Оплата */
+
+    .position-payment {
+        display: block;
+    }
+
+    .position-payment-img {
+        position: absolute;
+        top: 450px;
+        left: 150px;
+    }
+
+    .payment {
+        padding-bottom: 500px;
+        padding-top: 40px;
+        margin-bottom: 150px;
+    }
+
+    .position-delivery {
+        display: block;
+    }
+
+    .delivery-text {
+        width: 740px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .delivery-img {
+        margin-left: 150px;
+    }
+
+    .delivery-text-settings{
+        text-align: center;
+    }
+
+    .delivery-list-item:not(:last-child) {
+        margin-right: 140px;
+    }
+
+    /* Контакты */
+
+    .contact-adress {
+        padding-top: 70px;
+        width: 740px;
+        padding-left: 120px;
+        margin-bottom: 40px;
+    }
+
+    .contact-position{
+        display: block;
+    }
+
+    .contact-callback{
+        margin-left: 130px;
+    }
+}
+
+
 @media(max-width:320px){
 
     /* Шапка */

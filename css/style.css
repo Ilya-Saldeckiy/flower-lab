@@ -75,7 +75,7 @@ button{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 
@@ -284,6 +284,10 @@ ul.menu > li:hover > ul.submenu {
     margin-right: 114px;
 }
 
+.mobile-caption{
+    display: none;
+}
+
 
 
 /* footer */
@@ -291,6 +295,14 @@ ul.menu > li:hover > ul.submenu {
 .top-link-footer{
     background: url('../img/footer-back.png')no-repeat;
     background-size: cover;
+}
+
+.position-footer{
+    display: flex;
+}
+
+.footer-left-col{
+    margin-right: 40px;
 }
 
 .footer-menu-list{
@@ -313,6 +325,7 @@ ul.menu > li:hover > ul.submenu {
 
 .copyrait{
     background-color: #191919;
+    padding-top: 7px;
 }
 
 .list-copyrait{
@@ -587,7 +600,7 @@ ul.menu > li:hover > ul.submenu {
     color: #ffffff;
     width: 170px;
     height: 45px;
-    border-radius: 20px 0px 20px 0px;
+    border-radius: 30px 0;
     position: relative;
     left: 14.5%;
     top: -50px;
@@ -1532,11 +1545,11 @@ ul.menu > li:hover > ul.submenu {
 .custom-checkbox{
     position: relative;
     opacity: 0;
+    margin-bottom: -15px;
 }
 
 .custom-checkbox+label {
     display: inline-flex;
-    align-items: center;
     user-select: none;
     color: #565656;
 }
@@ -1563,11 +1576,11 @@ ul.menu > li:hover > ul.submenu {
 .custom-checkbox-radio{
     position: relative;
     opacity: 0;
+    margin-bottom: -15px;
 }
 
 .custom-checkbox-radio+label {
     display: inline-flex;
-    align-items: center;
     user-select: none;
     color: #565656;
 }
@@ -1642,7 +1655,6 @@ background-image: url('../img/radio-check.svg');
 
 .position-label{
     position: relative;
-    top: -22px;
     left: 35px;
 }
 
@@ -1671,9 +1683,10 @@ background-image: url('../img/radio-check.svg');
     color: #ffffff;
     background-color: #191919;
     border: none;
-    border-radius: 20px 0px;
+    border-radius: 30px 0px;
     margin-bottom: 30px;
     outline: none;
+    text-transform: uppercase;
 }
 
 .form-button-reset{
@@ -1684,6 +1697,7 @@ background-image: url('../img/radio-check.svg');
     background: url('../img/line-arrow.svg') no-repeat;
     background-position: bottom;
     outline: none;
+    text-transform: uppercase;
 }
 
 .last-filter{
@@ -1802,6 +1816,10 @@ background-image: url('../img/radio-check.svg');
 
 .position-slide-card{
     text-align: center;
+}
+
+.swiper-pagination-bullet{
+    outline: none;
 }
 
 .swiper-pagination-bullet {
